@@ -1,0 +1,9 @@
+.container{
+    margin:2rem 5rem;
+}
+@media screen and (max-width: 600px) {
+    /* This CSS will be applied to screens that are 600px or less wide */
+    .container{
+        margin: 1rem 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.LineHeading{
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-bottom:2rem;
+}
+.line{
+    max-width: 1;
+    width: auto;
+    flex-grow: 1;
+}
+.headingContainer{
+    margin:0 2rem;
+    color:#606160
+}
+.headingContainer h2{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+    /* This CSS will be applied to screens that are 600px or less wide */
+    .LineHeading {
+        flex-direction: column;
+    }
+    .line{
+        width:100%;
+    }
+}

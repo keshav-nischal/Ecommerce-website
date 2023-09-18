@@ -1,0 +1,8 @@
+.SocialContainer{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+.SocialContainer span{
+    margin: 0.65rem 0;
+}

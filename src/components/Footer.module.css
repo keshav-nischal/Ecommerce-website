@@ -1,0 +1,51 @@
+.Footer{
+}
+.headingLineContainer{
+    display: flex;
+    align-items: flex-end;
+    margin:1rem 0;
+}
+.headingContainer{
+    margin:0 1rem 0 0;
+}
+.headingContainer h1{
+    margin:0;
+}
+.lineContainer{
+    flex-grow:1;
+}
+
+
+.links_NewsletterForm_Info_Container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.linksContainer{
+    display:flex;
+    width:20%;
+    flex-direction: column;
+}
+.linksContainer a{
+    text-decoration: none;
+    color:black;
+    margin:0.5rem 0;
+}
+
+.infoContainer{
+    width:20%;
+}
+
+.infoContainer a{
+    text-decoration: none;
+}
+.formContainer{
+    width:25%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Footer{
+        font-size:0.75rem;
+    }
+}

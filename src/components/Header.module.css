@@ -1,0 +1,49 @@
+:root{
+    --iconSize:2rem;
+}
+.Header{
+    margin:0 5rem 4rem 5rem;
+    color:#2e302f;
+
+}
+.Header h1{
+    font-size:2.5rem;
+    
+}
+.headerRow1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar{
+
+}
+.accountIconloginBagContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accountIcon{
+    font-size:var(--iconSize);
+    margin:0 0.5rem 0 0;
+}
+.bagIcon{
+    font-size:var(--iconSize);
+    margin:0 0 0 0.5rem;
+
+}
+
+.headerRow2{
+    text-align: center;
+}
+
+.headerRow3{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.links{
+    margin:0 3rem;
+    text-decoration: none;
+    color:#2e302f;
+}
